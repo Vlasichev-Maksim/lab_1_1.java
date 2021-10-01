@@ -14,6 +14,21 @@ public class First {
         {
             a+=array[i];
         }
+        int i=0;
+        int b =0;
+        while(i<10){
+            b+=array[i];
+            i++;
+        }
+        System.out.println(b);
+        i=0;
+        b=0;
+        do {
+            b+=array[i];
+            i++;
+        }while(i<10);
+
         System.out.println(a);
+        System.out.println(b);
     }
 }
